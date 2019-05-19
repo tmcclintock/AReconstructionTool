@@ -1,3 +1,7 @@
+notebooks/Planck_data
+*.png
+*.pdf
+
 notebooks/DES_data
 *v4
 *.DS_Store
