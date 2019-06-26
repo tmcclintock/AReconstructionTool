@@ -1,6 +1,5 @@
 import numpy as np
-import george
-from george import kernels
+from george import kernels, GP
 import pyDOE2
 from scipy.optimize import minimize
 
@@ -173,7 +172,7 @@ class resampler(object):
             kernel = kernels.ExpSquaredKernel(metric=_guess, ndim=len(x[0]))
         #Note: the mean is set slightly lower that the minimum lnlike
         lnPmin = np.min(self.lnlikes)
-        gp = george.GP(kernel, mean=lnPmin-np.fabs(lnPmin*3))
+        gp = GP(kernel, mean=lnPmin-np.fabs(lnPmin*3))
         gp.compute(x)
         def neg_ln_likelihood(p):
             gp.set_parameter_vector(p)
