@@ -131,6 +131,8 @@ class resampler(object):
 
         #Snap the training points to the MCMC chain
         samples = np.dot(s*x[:]*np.sqrt(w), R.T)[:] + self.chain_means
+        self.unrotated_samples = x
+        self.unsnapped_samples = samples
         cov = self.chain_cov
         def sqdists(chain, s, cov):
             X = chain[:] - s
