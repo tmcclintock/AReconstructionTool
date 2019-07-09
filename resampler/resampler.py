@@ -209,7 +209,7 @@ class resampler(object):
 
         """
         #Make it the correct format
-        x = np.atleast_2d(x).copy()
+        #x = np.atleast_2d(x).copy()
         #Get x into the eigenbasis
         x = self._transform_data(x)
 
