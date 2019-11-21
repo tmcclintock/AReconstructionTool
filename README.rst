@@ -16,6 +16,7 @@ The requirements for the ART resampler are mild. They include:
 
 - numpy
 - scipy
+- pytest
 - `george <http://dfm.io/george/current/>`_
 - `pyDOE2 <https://pypi.org/project/pyDOE2/>`_
 
