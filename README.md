@@ -1,6 +1,6 @@
 # ART: A Reconstruction Tool
 
-.. image:: http://img.shields.io/badge/arXiv-1905.09299-orange.svg?style=flat
+.. image:: https://img.shields.io/badge/arxiv-1905.09299-orange.svg?style=flat
     :target: https://arxiv.org/abs/1905.09299
 
 
