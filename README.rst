@@ -1,6 +1,8 @@
 ART: A Reconstruction Tool
 ==========================
 
+.. image:: http://img.shields.io/travis/tmcclintock/AReconstructionTool/master.svg?style=flat
+    :target: https://travis-ci.com/tmcclintock/AReconstructionTool
 .. image:: https://img.shields.io/badge/arxiv-1905.09299-orange
     :target: https://arxiv.org/abs/1905.09299
 
