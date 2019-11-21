@@ -1,4 +1,7 @@
 # ART: A Reconstruction Tool
+.. image:: http://img.shields.io/badge/arXiv-1905.09299-orange.svg?style=flat
+    :target: https://arxiv.org/abs/1905.09299
+
 
 A tool for reconstructing log-probability distributions using Gaussian processes. This tool requires an existing MCMC chain, or similar set of samples from a probability distribution, including the log-probabilities.
 
